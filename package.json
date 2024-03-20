@@ -1,0 +1,15 @@
+{
+  "name": "proshop-app",
+  "version": "1.0.0",
+  "description": "MERN Stack E-commerce platform.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "Lebogang Peter Sekaleli",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.0"
+  }
+}
