@@ -12,14 +12,13 @@ app.get('/', (req, res) => {
 
 // Route for all the products
 app.get('/api/products', (req, res) => {
-    res.json(products)
+  res.json(products);
 });
 
 // Single route
 app.get('/api/products/:id', (req, res) => {
-    const product = products.find((p) => p._id === req.params.id);
-    res.json(product);
-
+  const product = products.find((p) => p._id === req.params.id);
+  res.json(product);
 });
 
 app.listen(port, () => console.log(`Server is running on port ${port}`));
